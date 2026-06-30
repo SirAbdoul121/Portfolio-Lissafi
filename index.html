@@ -34,11 +34,6 @@
 </head>
 <body>
 
-    <!-- PRELOADER -->
-    <div class="preloader" id="preloader">
-        <div class="spinner"></div>
-        <div class="preloader-text">LISSAFI BUSINESS SOLUTIONS</div>
-    </div>
 
     <!-- FLOATING SOCIAL SIDEBAR -->
     <div class="social-sidebar" id="socialSidebar">
@@ -546,13 +541,7 @@
     </button>
 
     <script>
-        // ===== PRELOADER =====
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.getElementById('preloader').classList.add('hidden');
-            }, 600);
-        });
-
+       
         // ===== CURRENT YEAR =====
         document.getElementById('currentYear').textContent = new Date().getFullYear();
 
